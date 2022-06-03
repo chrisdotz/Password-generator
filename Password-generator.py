@@ -12,13 +12,13 @@ last_name = last_name.lower()
 fav_number = int(fav_number)
 fav_animal = fav_animal.lower()
 
-#grabbing first initals in CAPS
-first_inital = first_name[0]
-first_inital = first_inital.upper()
+#grabbing first initial in CAPS
+first_initial = first_name[0]
+first_initial = first_initial.upper()
 
 #adding 1 to favorite number
 fav_number += 1
 fav_number = str(fav_number)
 
 
-print(f"Your new password login to access your privite data base is: {first_inital + last_name + fav_number + fav_animal}")
+print(f"Your new password login to access your private data base is: {first_initial + last_name + fav_number + fav_animal}")
